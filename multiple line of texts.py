@@ -27,6 +27,7 @@ def write_file():
                 if response() == "y" or response() == "n":
                     break
                 #if not, prompt the user again
+                print("Invalid response! Please input 'y' or 'n' only: ")
             #if user says no, break out the loop
 
 

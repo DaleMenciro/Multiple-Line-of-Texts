@@ -1,14 +1,3 @@
-'''
-Write a method in python to write multiple line of text contents into a text file mylife.txt.
-See sample output:
-Enter line: Beautiful is better than ugly.
-Are there more lines y/n? y
-Enter line: Explicit is better than implicit.
-Are there more lines y/n? y
-Enter line: Simple is better than complex.
-Are there more lines y/n? n 
-'''
-
 def write_file():
     #open file for writing
     with open("mylife.txt", "w") as my_file:
@@ -31,7 +20,6 @@ def write_file():
             #if user says no, break out the loop
             if response() == "n":
                 break
-
 
 #==== START ====
 write_file()

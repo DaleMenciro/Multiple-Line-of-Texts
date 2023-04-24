@@ -9,13 +9,14 @@ Enter line: Simple is better than complex.
 Are there more lines y/n? n 
 '''
 
-#open file for writing
-    #loop until the user is done entering
-        #asks user to input the line
-        #write the line to the file
+def write_file(filename):
+    #open file for writing
+        #loop until the user is done entering
+            #asks user to input the line
+            #write the line to the file
 
-        #loop until the user input valid response y/n
-            #asks user if they want to input more lines
-            #if input is valid, loop breaks
-            #if not, prompt the user again
-        #if user says no, break out the loop
+            #loop until the user input valid response y/n
+                #asks user if they want to input more lines
+                #if input is valid, loop breaks
+                #if not, prompt the user again
+            #if user says no, break out the loop

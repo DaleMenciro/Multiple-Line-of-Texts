@@ -18,8 +18,8 @@ def write_file():
             line_input = input("Enter line: ")
             #write the line to the file
             my_file.write(line_input + "\n")
-
             #loop until the user input valid response y/n
+            while True:
                 #asks user if they want to input more lines
                 #if input is valid, loop breaks
                 #if not, prompt the user again

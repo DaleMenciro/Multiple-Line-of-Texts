@@ -11,6 +11,7 @@ Are there more lines y/n? n
 
 def write_file():
     #open file for writing
+    with open("mylife.txt", "w") as my_file:
         #loop until the user is done entering
             #asks user to input the line
             #write the line to the file

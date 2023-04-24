@@ -9,7 +9,7 @@ Enter line: Simple is better than complex.
 Are there more lines y/n? n 
 '''
 
-def write_file(filename):
+def write_file():
     #open file for writing
         #loop until the user is done entering
             #asks user to input the line
@@ -20,3 +20,7 @@ def write_file(filename):
                 #if input is valid, loop breaks
                 #if not, prompt the user again
             #if user says no, break out the loop
+
+
+#==== START ====
+write_file()

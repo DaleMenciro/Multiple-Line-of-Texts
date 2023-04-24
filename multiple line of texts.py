@@ -17,6 +17,7 @@ def write_file():
             #asks user to input the line
             line_input = input("Enter line: ")
             #write the line to the file
+            my_file.write(line_input + "\n")
 
             #loop until the user input valid response y/n
                 #asks user if they want to input more lines

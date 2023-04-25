@@ -12,8 +12,7 @@ def write_file():
             #loop until the user input valid response y/n
             while True:
                 #asks user if they want to input more lines
-                response = input("Are there more lines (y/n)? ")
-                response = response.lower
+
                 #if input is valid, loop breaks
                 if response() == "y" or response() == "n":
                     break

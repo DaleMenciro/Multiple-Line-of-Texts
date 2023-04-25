@@ -14,7 +14,7 @@ def write_file():
                 #asks user if they want to input more lines
                 response= response_box.get().lower()
                 #if input is valid, loop breaks
-                if response() == "y" or response() == "n":
+                if response == "y" or response == "n":
                     break
                 #if not, prompt the user again
                 response_box.delete(0, tk.END)

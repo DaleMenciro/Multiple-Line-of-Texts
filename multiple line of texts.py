@@ -32,6 +32,9 @@ input_box = tk.Entry(window, width=50)
 input_box.pack()
 
 #create response box
+response_box = tk.Entry(window, width=50)
+response_box.pack()
+
 #create submit button
 
 #==== START ====

@@ -36,6 +36,8 @@ response_box = tk.Entry(window, width=50)
 response_box.pack()
 
 #create submit button
+submit_button = tk.Button(window, text="Submit", command=write_file)
+submit_button.pack()
 
 #==== START ====
 write_file()

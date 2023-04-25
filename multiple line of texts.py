@@ -23,5 +23,10 @@ def write_file():
             if response() == "n":
                 break
 
+#create window
+#create input box
+#create response box
+#create submit button
+
 #==== START ====
 write_file()

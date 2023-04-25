@@ -1,3 +1,5 @@
+import tkinter as tk:
+
 def write_file():
     #open file for writing
     with open("mylife.txt", "w") as my_file:

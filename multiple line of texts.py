@@ -28,6 +28,9 @@ window = tk.Tk()
 window.title("My Life")
 
 #create input box
+input_box = tk.Entry(window, width=50)
+input_box.pack()
+
 #create response box
 #create submit button
 

@@ -40,4 +40,4 @@ submit_button = tk.Button(window, text="Submit", command=write_file)
 submit_button.pack()
 
 #==== START ====
-write_file()
+window.mainloop()

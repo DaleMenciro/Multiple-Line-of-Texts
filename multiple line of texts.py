@@ -24,6 +24,9 @@ def write_file():
                 break
 
 #create window
+window = tk.Tk()
+window.title("My Life")
+
 #create input box
 #create response box
 #create submit button

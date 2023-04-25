@@ -1,4 +1,4 @@
-import tkinter as tk:
+import tkinter as tk
 
 def write_file():
     #open file for writing

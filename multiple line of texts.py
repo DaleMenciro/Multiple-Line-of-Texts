@@ -20,7 +20,7 @@ def write_file():
                 response_box.delete(0, tk.END)
                 response_box.insert(tk.END, "Invalid response! Please input 'y' or 'n' only: ")
             #if user says no, break out the loop
-            if response() == "n":
+            if response == "n":
                 break
 
 #create window

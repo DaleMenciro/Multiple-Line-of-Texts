@@ -10,7 +10,6 @@ The program will prompt the user if there are more lines, if "y" the writing con
 - termcolor
 
 ```bash
-installation guide:
-    pip install colorama
-    pip install termcolor
+pip install colorama
+pip install termcolor
 ```

@@ -7,7 +7,7 @@ def write_file():
         #loop until the user is done entering
         while True:
             #asks user to input the line
-            line_input = input("Enter line: ")
+            line_input = input("Enter line: ", "blue")
             #write the line to the file
             my_file.write(line_input + "\n")
             #loop until the user input valid response y/n

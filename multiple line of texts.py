@@ -29,7 +29,7 @@ def write_file():
 colorama.init()
 write_file()
 
-''' Sample input '''
+''' Sample output '''
 #Beautiful is better than ugly.
 #Explicit is better than implicit.
 #Simple is better than complex.

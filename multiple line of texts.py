@@ -22,8 +22,14 @@ def write_file():
                 print(colored("Invalid response! Please input 'y' or 'n' only: ", "red"))
             #if user says no, break out the loop
             if response() == "n":
+                print(colored("Thank you for using the program!", "green"))
                 break
 
 #==== START ====
 colorama.init()
 write_file()
+
+''' Sample input '''
+#Beautiful is better than ugly.
+#Explicit is better than implicit.
+#Simple is better than complex.
